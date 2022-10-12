@@ -6,7 +6,7 @@ http://doc.ml.tu-berlin.de/causality/
 
 example 在PSI.py里，直接运行就有结果了。
 
-if __name__ == "__main__":
+
     signals = np.sin(range(10001))
     data_ = np.array([signals[1:], signals[0:-1]]).T
     seg_leng = 100
