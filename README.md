@@ -6,6 +6,9 @@ http://doc.ml.tu-berlin.de/causality/
 
 example 在PSI.py里，直接运行就有结果了。
 
+如果要对比matlab的结果，我也把matlab代码上传了。
+运行 main_psi.m（需要data2psi.m才能执行）
+
 
     signals = np.sin(range(10001))
     data_ = np.array([signals[1:], signals[0:-1]]).T
